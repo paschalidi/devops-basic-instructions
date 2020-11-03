@@ -11,8 +11,9 @@
    docker --version 
    
    # start docker services
-   service docker start
-   service docker status
+   systemctl start docker
+   systemctl enable docker
+   systemctl status docker
    ```
 1. Create a user called dockeradmin
    ```sh
