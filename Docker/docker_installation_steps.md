@@ -24,6 +24,13 @@
    ```
    usermod -aG docker dockeradmin
    ```
+   
+TIP on aws instances you will have to enable ssh with password 
+```
+vi /etc/ssh/sshd_config 
+```   
+and change the `PasswordAuthentication` to `yes`
+
 ### Validation test
 1. Create a tomcat docker container by pulling a docker image from the public docker registry
    ```sh
