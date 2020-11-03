@@ -31,7 +31,7 @@ vi /etc/ssh/sshd_config
 ```   
 and change the `PasswordAuthentication` to `yes`
 
-then reload ssh server `sudo systemctl reload ssh` or `service sshd reload`
+then reload ssh server `systemctl reload sshd.service` or `service sshd reload`
 
 ### Validation test
 1. Create a tomcat docker container by pulling a docker image from the public docker registry
