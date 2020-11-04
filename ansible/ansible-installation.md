@@ -53,16 +53,16 @@ Ansible is an open-source automation platform. It is very, very simple to set up
 
    ```
 1. Create a directory /etc/ansible and create an inventory file called "hosts" add control node and managed hosts IP addresses to it. 
- ```
- cd /etc/ansible
- sudo vi hosts
- ```
- and add the docker host ip address
- eg 
- ``` 
- 172.31.28.65 # the docker system
- localhost # the local system
- ```
+    ```
+    cd /etc/ansible
+    sudo vi hosts
+    ```
+   and add the docker host ip address
+   eg 
+    ``` 
+    172.31.28.65 # the docker system
+    localhost # the local system
+    ```
 ### Validation test
 
    
