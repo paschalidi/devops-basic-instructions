@@ -1,5 +1,4 @@
-# Simple DevOps Project
-
+# devops-simple-commands
 This Repository is a collection of Implementation documents. 
 
 ### Purpose:
