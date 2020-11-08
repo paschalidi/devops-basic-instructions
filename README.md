@@ -10,3 +10,9 @@ By following this repository you can able to setup a DevOps CI/CD Pipeline using
 - Docker &
 - Kubernetes
 
+# Linux 
+
+Find log errors
+```
+grep -ni 'error\|failure' $(sudo find /var/log -name cfn\* -or -name cloud-init\*)
+```
